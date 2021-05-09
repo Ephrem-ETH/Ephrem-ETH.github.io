@@ -24,17 +24,18 @@
   tpl: skills.html
   css: team
 
-- id: projects
-  i18n: nav.projects
-  name: Projects
-  tpl: projects.html
-  css: project
+# - id: projects
+#   i18n: nav.projects
+#   name: Projects
+#   tpl: projects.html
+#   css: project
 
 - id: certificate
   i18n: nav.blog
   name: Certifications
   tpl: certificate.html
   page: certificate
+  css: project
 
 - id: publications
   i18n: nav.career
@@ -42,11 +43,7 @@
   tpl: publication.html
   css: timeline
 
-- id: contact
-  i18n: nav.blog
-  name: Contact
-  tpl: blog.html
-  page: blog/
+
 #  css: testimonials navy-section
 
 #- id: links
