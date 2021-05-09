@@ -67,7 +67,7 @@ author:  # change following line to your infomation.
   facebook_username:   # Leave blank if you don't have now
   twitter: BloggerStanco
   email: ephrem.tibebe2010@gmail.com  # Leave blank if you don't have now
-  cv: https://ephrem-eth.github.io/static/assets/cv/CV_Cristian_Castellari.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://ephrem-eth.github.io/static/assets/cv/Mekonnen_Ephrem_CV.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
 
 
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
@@ -77,8 +77,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-apple
     - name: fa-code
-  desc: "Informatico, padre e marito. Appassionato di tecnologia da sempre, curioso di natura. Nel tempo libero mi dedico alla famiglia, agli amici, alla cucina e ai videogiochi.
-  Credo fortmente in ITIL come framework da applicare non solo all'IT ma anche a normali situazioni di vita quotidiana"
+  desc: ""
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
