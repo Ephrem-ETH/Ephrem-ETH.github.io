@@ -1,0 +1,38 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Neural Networks and Deep Learning
+  date: April 2020
+  url: https://github.com/kace-sma-tools
+  img: /static/assets/img/landing/kacesmatools.png
+  by: deeplearning.ai
+  #i18n: kace-sma-tools
+
+
+- name: "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
+  date: April 2020
+  url: https://github.com/kace-sma-tools
+  img: /static/assets/img/landing/kacesmatools.png
+  by: deeplearning.ai
+  #i18n: kace-sma-tools
+
+- name: Python for Data Science and AI
+  date: March 2020
+  url: https://github.com/kace-sma-tools
+  img: /static/assets/img/landing/kacesmatools.png
+  by: IBM
+  #i18n: kace-sma-tools
+
+- name: Docker for the Absolute Beginner
+  date: April 2020
+  url: https://github.com/kace-sma-tools
+  img: /static/assets/img/landing/kacesmatools.png
+  by: KodeKloud 
+  #i18n: kace-sma-tools
+
+- name: "Foundations:Data, Data, Everywhere "
+  date: May 2021
+  url: https://github.com/kace-sma-tools
+  img: /static/assets/img/landing/kacesmatools.png
+  by: Google
+  #i18n: kace-sma-tools

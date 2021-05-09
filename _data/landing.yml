@@ -18,12 +18,6 @@
   tpl: education.html
   css: timeline
 
-- id: publications
-  i18n: nav.career
-  name: Publication
-  tpl: publication.html
-  css: timeline
-
 - id: skills
   i18n: nav.skills
   name: Skills
@@ -39,8 +33,14 @@
 - id: blog
   i18n: nav.blog
   name: Certifications
-  tpl: blog.html
-  page: blog/
+  tpl: certification.html
+  page: certificate
+
+- id: publications
+  i18n: nav.career
+  name: Publication
+  tpl: publication.html
+  css: timeline
 
 - id: contact
   i18n: nav.blog
