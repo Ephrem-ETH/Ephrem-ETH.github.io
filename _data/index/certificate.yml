@@ -3,36 +3,36 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Neural Networks and Deep Learning
   date: April 2020
-  url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
+  url: https://www.coursera.org/account/accomplishments/certificate/YGP68UY2YK6P
+  img: /static/assets/img/certificate/nn.png
   by: deeplearning.ai
   #i18n: kace-sma-tools
 
 
 - name: "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
   date: April 2020
-  url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
+  url: https://www.coursera.org/account/accomplishments/certificate/C9A7WB6R9VYT
+  img: /static/assets/img/certificate/improving_nn.jpeg
   by: deeplearning.ai
   #i18n: kace-sma-tools
 
 - name: Python for Data Science and AI
   date: March 2020
-  url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
+  url: https://www.coursera.org/account/accomplishments/certificate/GCN7J89Y2SFC
+  img: /static/assets/img/certificate/python.png
   by: IBM
   #i18n: kace-sma-tools
 
 - name: Docker for the Absolute Beginner
   date: April 2020
   url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
+  img: /static/assets/img/certificate/docker.png
   by: KodeKloud 
   #i18n: kace-sma-tools
 
 - name: "Foundations:Data, Data, Everywhere "
   date: May 2021
-  url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
+  url: https://www.coursera.org/account/accomplishments/certificate/MB694AVSJ38C
+  img: /static/assets/img/certificate/da1.png
   by: Google
   #i18n: kace-sma-tools
