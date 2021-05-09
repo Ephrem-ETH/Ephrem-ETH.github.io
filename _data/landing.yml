@@ -31,10 +31,9 @@
 #   css: project
 
 - id: certificate
-  i18n: nav.blog
+  i18n: nav.certificate
   name: Certifications
   tpl: certificate.html
-  page: certificate
   css: project
 
 - id: publications
