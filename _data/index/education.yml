@@ -1,0 +1,28 @@
+- name:
+    detail: University of Trento, Italy 
+    i18n: integra
+  desc:
+    detail: 
+    i18n: integra_desc
+  date:
+    detail: September 2019 - Present
+    i18n: integra_date
+  job:
+    detail: Master's in Computer Science
+    i18n: integra_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Addis Ababa University, Ethiopia
+    i18n: novomatic_b
+  desc:
+    detail: 
+    i18n: novomatic_b_desc
+  date:
+    detail: September 2013 - July 2017
+    i18n: novomatic_b_date
+  job:
+    detail: BSc Degree in Computer Science
+    i18n: novomatic_b_job
+  icon: fa-plus-square

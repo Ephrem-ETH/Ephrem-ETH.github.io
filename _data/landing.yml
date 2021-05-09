@@ -12,6 +12,18 @@
   tpl: career.html
   css: timeline
 
+- id: education
+  i18n: nav.career
+  name: Education
+  tpl: education.html
+  css: timeline
+
+- id: publications
+  i18n: nav.career
+  name: Publication
+  tpl: publication.html
+  css: timeline
+
 - id: skills
   i18n: nav.skills
   name: Skills
@@ -26,7 +38,13 @@
 
 - id: blog
   i18n: nav.blog
-  name: Blog
+  name: Certifications
+  tpl: blog.html
+  page: blog/
+
+- id: contact
+  i18n: nav.blog
+  name: Contact
   tpl: blog.html
   page: blog/
 #  css: testimonials navy-section

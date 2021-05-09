@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Quest KACE, Windows Server, Linux/Shell, IBM Notes/Domino, Citrix XenApp, Citrix XenDesktop, Active Directory, WordPress, Git, GitHub, HTML/CSS, Jekyll, ITIL
+aspects: Java, Python,Kotlin, HTML, CSS, C#, ASP net MVC5, PHP, MYSQL, Oracle 11 g,Docker, kubernetes(K8s),Openstack
 percentage: 99, 90, 85, 90, 85, 80, 90, 85, 70, 80, 65, 75, 85
