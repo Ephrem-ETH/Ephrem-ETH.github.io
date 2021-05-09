@@ -30,10 +30,10 @@
   tpl: projects.html
   css: project
 
-- id: blog
+- id: certificate
   i18n: nav.blog
   name: Certifications
-  tpl: certification.html
+  tpl: certificate.html
   page: certificate
 
 - id: publications
