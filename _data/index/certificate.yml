@@ -20,7 +20,7 @@
   date: March 2020
   url: https://www.coursera.org/account/accomplishments/certificate/GCN7J89Y2SFC
   img: /static/assets/img/certificate/python.png
-  by: IBM
+  by: IBM 
   #i18n: kace-sma-tools
 
 - name: Docker for the Absolute Beginner
@@ -34,5 +34,11 @@
   date: May 2021
   url: https://www.coursera.org/account/accomplishments/certificate/MB694AVSJ38C
   img: /static/assets/img/certificate/da1.png
-  by: Google
+  by: Google 
+  #i18n: kace-sma-tools
+- name: "Data Analysis with Python "
+  date: January 2022
+  url: https://www.coursera.org/account/accomplishments/certificate/KJTQRMMMT9CZ
+  img: static/assets/img/certificate/data_analysis.png
+  by: IBM 
   #i18n: kace-sma-tools

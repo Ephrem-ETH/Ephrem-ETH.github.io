@@ -1,43 +1,62 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Kace SMA Tools
-  gh_user: KACE-SMA-Tools
-  url: https://github.com/kace-sma-tools
-  img: /static/assets/img/landing/kacesmatools.png
-  desc: Idee, script e suggerimenti utili per Quest Kace Systems Management Appliace (precedentmente noto come K1000) 
+- name: End to End Keyword Spotting (E2E KWS)
+  gh_user: E2E-KWS
+  url: https://github.com/Ephrem-ETH/E2E-KWS
+  img: /static/assets/img/landing/keyword.png
+  desc: An end-to-end low-resource keyword spotting through a characterlevel LSTM and connectionist temporal classification loss function 
   #i18n: kace-sma-tools
 
-- name: K1000 Database Queries
-  gh_user: KACE-SMA-Tools
-  repo: K1000-Database-Queries
+- name: Mining Frequent Popular Topics in time from tweet
+dataset
+  gh_user: Data-Mining
+  repo: 
   img: /static/assets/img/landing/development.png
-  desc:  Una collezione di queries MySQL per Il KACE 1000 (Quest Kace Systems Management Appliance)
+  desc:  Given the tweet dataset about covid-19, and the idea of the
+project is to find frequent popular words that appear together in
+time. It is implemented fully in python.
   #i18n: k1000-database-queries
 
-- name: IPUI to IPEI
+- name: Quorum-Based Total Order Broadcast
   gh_user: Skyflash
-  repo: ipui2ipei
+  repo: https://github.com/Ephrem-ETH/DS1
   img: /static/assets/img/landing/dect-85-512.png
-  desc: IPUI 2 IPEI converte i codici IPUI, tipici dei telefoni DECT Siemens, allo standard IPEI.
+  desc: Implementing a protocol for the coordination of a group of
+replicas, sharing the same data, that tolerates multiple node
+failures thanks to a Quorum-based approach.The system
+handles update requests coming from external clients and
+guarantees all replicas apply the update in the same order.
+Updates are managed by a special replicas, the coordinator,
+following a two-phase broadcast procedure. if the coordinator
+crashes, a new one is elected to ensure continuity of service.
+It is coded in Java (Using Akka framework)
 
-- name: FlottaStellare.it
-  gh_user:  ed-acfs
-  repo: ed-acfs.github.io
-  url:  https://flottastellare.it
+- name: Pharmacy Inventory Management System
+  gh_user:  
+  repo: https://github.com/Ephrem-ETH/
+  url:  
   img:  /static/assets/img/landing/flottastellare.png
-  desc: "Il sito web per lo Squadrone Flotta Stellare di Elite: Dangerous"
+  desc: A desktop application that helps to register stocks, manage sells
+and purchases easily. It has well-implemented account
+management so that mangers of the pharmacy can control what
+is going on and take efficient decisions accordingly. The
+application can also support different languages.
 
-- name: La Traduzione di Morrowind
-  gh_user: Skyflash
-  repo: morrowind-italian-itp-translation
-  img: /static/assets/img/landing/morrowind.png
-  desc: La traduzione in Italiano di Morrowind, Tribunal e Bloodmoon - A cura dell'ITP
+- name: Deploying Web Application using Docker and
+Kubernetes
+  gh_user: 
+  repo: https://github.com/Ephrem-ETH/
+  img: /static/assets/img/certificate/docker.png
+  desc: Fog and Cloud Computing Class project.
+Deploying web application using docker and kubernetes to
+easily scale up/ down the web server as per the traffic, mange
+and leverage the benefits of both technologies
   #i18n: morrowind-translation
 
-- name: This website on Github
-  gh_user: Skyflash
-  repo: skyflash.github.io
-  img: /static/assets/img/landing/me.jpg
-  desc: Il repository GitHub su cui viene sviluppato questo sito
-  #i18n: skyflash-github
+# - name: This website on Github
+#   gh_user: Skyflash
+#   repo: skyflash.github.io
+#   img: /static/assets/img/landing/me.jpg
+#   desc: Il repository GitHub su cui viene sviluppato questo sito
+#   #i18n: skyflash-github

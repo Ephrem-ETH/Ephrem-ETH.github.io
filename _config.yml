@@ -65,7 +65,7 @@ author:  # change following line to your infomation.
   github_username: ephrem-eth  # Leave blank if you don't have now
   linkedin_id: ephrem-tibebe-775444127 # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
-  twitter: BloggerStanco
+  twitter: Mekonnen8Ephrem
   email: ephrem.tibebe2010@gmail.com  # Leave blank if you don't have now
   cv: https://ephrem-eth.github.io/static/assets/cv/Mekonnen_Ephrem_CV.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
 
@@ -77,8 +77,8 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-apple
     - name: fa-code
-  desc: I am a graduate student of Computer Science at the University of Trento, Italy. Currently, I am doing both an internship and a Master's thesis at Fondazione Bruno Kessler (FBK) in the SpeechTek research unit on End to End Automatic Speech Recognition.
-
+  desc: 
+  I have successfully graduated with a Master's Degree in Computer Science from the University of Trento, Italy, in December 2021. After I received my Bachelor's Degree in Computer Science from Addis Ababa University in 2017, I have worked for two years as a teaching assistant at Haramaya University, Ethiopia. During my Master's study, I have worked both my internship and a Master's thesis in the SpeechTek Research unit at Fondazione Bruno Kessler (FBK) for eight-plus months. I have a keen research interest in Automatic Speech Recognition (ASR), Natural Language Processing (NLP), and Machine Translation.
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: ephrem-eth.github.io
