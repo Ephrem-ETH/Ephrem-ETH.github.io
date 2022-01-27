@@ -36,3 +36,9 @@
   img: /static/assets/img/certificate/da1.png
   by: Google
   #i18n: kace-sma-tools
+- name: "Data Analysis with Python "
+  date: January 2022
+  url: https://www.coursera.org/account/accomplishments/certificate/KJTQRMMMT9CZ
+  img: static/assets/img/certificate/data_analysis.png
+  by: Google
+  #i18n: kace-sma-tools

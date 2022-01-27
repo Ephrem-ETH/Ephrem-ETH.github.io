@@ -5,13 +5,13 @@
     detail: 
     i18n: integra_desc
   date:
-    detail: September 2019 - Present
+    detail: September 2019 - December 2021
     i18n: integra_date
   job:
-    detail: Master's in Computer Science
+    detail: Master's Degree in Computer Science
     i18n: integra_job
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Addis Ababa University, Ethiopia
