@@ -33,7 +33,11 @@ crashes, a new one is elected to ensure continuity of service.
 It is coded in Java (Using Akka framework)
 
 - name: Pharmacy Inventory Management System
+<<<<<<< HEAD
   gh_user:  
+=======
+  gh_user:  ed-acfs
+>>>>>>> dc798a388cae7704cca6c989da3cd26cc0aa4394
   repo: https://github.com/Ephrem-ETH/
   url:  
   img:  /static/assets/img/landing/flottastellare.png
@@ -43,6 +47,7 @@ management so that mangers of the pharmacy can control what
 is going on and take efficient decisions accordingly. The
 application can also support different languages.
 
+<<<<<<< HEAD
 - name: Deploying Web Application using Docker and
 Kubernetes
   gh_user: 
@@ -53,6 +58,14 @@ Deploying web application using docker and kubernetes to
 easily scale up/ down the web server as per the traffic, mange
 and leverage the benefits of both technologies
   #i18n: morrowind-translation
+=======
+# - name: La Traduzione di Morrowind
+#   gh_user: Skyflash
+#   repo: morrowind-italian-itp-translation
+#   img: /static/assets/img/landing/morrowind.png
+#   desc: La traduzione in Italiano di Morrowind, Tribunal e Bloodmoon - A cura dell'ITP
+#   #i18n: morrowind-translation
+>>>>>>> dc798a388cae7704cca6c989da3cd26cc0aa4394
 
 # - name: This website on Github
 #   gh_user: Skyflash
