@@ -34,19 +34,11 @@
   date: May 2021
   url: https://www.coursera.org/account/accomplishments/certificate/MB694AVSJ38C
   img: /static/assets/img/certificate/da1.png
-<<<<<<< HEAD
-  by: Google 
-=======
   by: Google
->>>>>>> dc798a388cae7704cca6c989da3cd26cc0aa4394
   #i18n: kace-sma-tools
 - name: "Data Analysis with Python "
   date: January 2022
   url: https://www.coursera.org/account/accomplishments/certificate/KJTQRMMMT9CZ
   img: static/assets/img/certificate/data_analysis.png
-<<<<<<< HEAD
   by: IBM 
-=======
-  by: Google
->>>>>>> dc798a388cae7704cca6c989da3cd26cc0aa4394
   #i18n: kace-sma-tools
