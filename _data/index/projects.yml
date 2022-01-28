@@ -43,8 +43,7 @@ is going on and take efficient decisions accordingly. The
 application can also support different languages."
 
 
-- name: Deploying Web Application using Docker and
-Kubernetes
+- name: Deploying Web Application using Docker and Kubernetes
   gh_user: 
   repo: https://github.com/Ephrem-ETH/
   img: /static/assets/img/certificate/docker.png
