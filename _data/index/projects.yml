@@ -2,14 +2,15 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: End to End Keyword Spotting (E2E KWS)
-  gh_user: E2E-KWS
+  gh_user: Ephrem-ETH
+  repo: E2E-KWS
   url: https://github.com/Ephrem-ETH/E2E-KWS
   img: /static/assets/img/landing/keyword.png
   desc: An end-to-end low-resource keyword spotting through a characterlevel LSTM and connectionist temporal classification loss function 
   #i18n: kace-sma-tools
 
 - name: Mining Frequent Popular Topics in time from tweet dataset
-  gh_user: Data-Mining
+  gh_user: Ephrem-ETH
   repo: 
   img: /static/assets/img/landing/development.png
   desc:  "Given the tweet dataset about covid-19, and the idea of the
@@ -18,7 +19,8 @@ time. It is implemented fully in python."
   #i18n: k1000-database-queries
 
 - name: Quorum-Based Total Order Broadcast
-  gh_user: DS1
+  gh_user: Ephrem-ETH
+  repo: DS1
   url: https://github.com/Ephrem-ETH/DS1
   img: /static/assets/img/landing/dect-85-512.png
   desc: "Implementing a protocol for the coordination of a group of
@@ -32,8 +34,8 @@ crashes, a new one is elected to ensure continuity of service.
 It is coded in Java (Using Akka framework)"
 
 - name: Pharmacy Inventory Management System
-  gh_user:  
-  repo: https://github.com/Ephrem-ETH/
+  gh_user: Ephrem-ETH
+  repo: 
   url:  https://github.com/Ephrem-ETH/
   img:  /static/assets/img/landing/flottastellare.png
   desc: "A desktop application that helps to register stocks, manage sells
@@ -44,8 +46,8 @@ application can also support different languages."
 
 
 - name: Deploying Web Application using Docker and Kubernetes
-  gh_user: 
-  repo: https://github.com/Ephrem-ETH/
+  gh_user: Ephrem-ETH
+  repo: Fog-project
   img: /static/assets/img/certificate/docker.png
   desc: "Fog and Cloud Computing Class project.
 Deploying web application using docker and kubernetes to
