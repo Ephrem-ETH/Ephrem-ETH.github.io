@@ -8,21 +8,20 @@
   desc: An end-to-end low-resource keyword spotting through a characterlevel LSTM and connectionist temporal classification loss function 
   #i18n: kace-sma-tools
 
-- name: Mining Frequent Popular Topics in time from tweet
-dataset
+- name: Mining Frequent Popular Topics in time from tweet dataset
   gh_user: Data-Mining
   repo: 
   img: /static/assets/img/landing/development.png
-  desc:  Given the tweet dataset about covid-19, and the idea of the
+  desc:  "Given the tweet dataset about covid-19, and the idea of the
 project is to find frequent popular words that appear together in
-time. It is implemented fully in python.
+time. It is implemented fully in python."
   #i18n: k1000-database-queries
 
 - name: Quorum-Based Total Order Broadcast
   gh_user: Skyflash
   repo: https://github.com/Ephrem-ETH/DS1
   img: /static/assets/img/landing/dect-85-512.png
-  desc: Implementing a protocol for the coordination of a group of
+  desc: "Implementing a protocol for the coordination of a group of
 replicas, sharing the same data, that tolerates multiple node
 failures thanks to a Quorum-based approach.The system
 handles update requests coming from external clients and
@@ -30,18 +29,18 @@ guarantees all replicas apply the update in the same order.
 Updates are managed by a special replicas, the coordinator,
 following a two-phase broadcast procedure. if the coordinator
 crashes, a new one is elected to ensure continuity of service.
-It is coded in Java (Using Akka framework)
+It is coded in Java (Using Akka framework)"
 
 - name: Pharmacy Inventory Management System
   gh_user:  ed-acfs
   repo: https://github.com/Ephrem-ETH/
   url:  
   img:  /static/assets/img/landing/flottastellare.png
-  desc: A desktop application that helps to register stocks, manage sells
+  desc: "A desktop application that helps to register stocks, manage sells
 and purchases easily. It has well-implemented account
 management so that mangers of the pharmacy can control what
 is going on and take efficient decisions accordingly. The
-application can also support different languages.
+application can also support different languages."
 
 
 - name: Deploying Web Application using Docker and
@@ -49,10 +48,10 @@ Kubernetes
   gh_user: 
   repo: https://github.com/Ephrem-ETH/
   img: /static/assets/img/certificate/docker.png
-  desc: Fog and Cloud Computing Class project.
+  desc: "Fog and Cloud Computing Class project.
 Deploying web application using docker and kubernetes to
 easily scale up/ down the web server as per the traffic, mange
-and leverage the benefits of both technologies
+and leverage the benefits of both technologies"
   #i18n: morrowind-translation
 =======
 # - name: La Traduzione di Morrowind
