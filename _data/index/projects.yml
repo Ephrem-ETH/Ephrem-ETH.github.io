@@ -18,8 +18,8 @@ time. It is implemented fully in python."
   #i18n: k1000-database-queries
 
 - name: Quorum-Based Total Order Broadcast
-  gh_user: Skyflash
-  repo: https://github.com/Ephrem-ETH/DS1
+  gh_user: DS1
+  url: https://github.com/Ephrem-ETH/DS1
   img: /static/assets/img/landing/dect-85-512.png
   desc: "Implementing a protocol for the coordination of a group of
 replicas, sharing the same data, that tolerates multiple node
@@ -32,9 +32,9 @@ crashes, a new one is elected to ensure continuity of service.
 It is coded in Java (Using Akka framework)"
 
 - name: Pharmacy Inventory Management System
-  gh_user:  ed-acfs
+  gh_user:  
   repo: https://github.com/Ephrem-ETH/
-  url:  
+  url:  https://github.com/Ephrem-ETH/
   img:  /static/assets/img/landing/flottastellare.png
   desc: "A desktop application that helps to register stocks, manage sells
 and purchases easily. It has well-implemented account
