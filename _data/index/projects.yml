@@ -52,7 +52,6 @@ Deploying web application using docker and kubernetes to
 easily scale up/ down the web server as per the traffic, mange
 and leverage the benefits of both technologies"
   #i18n: morrowind-translation
-=======
 # - name: La Traduzione di Morrowind
 #   gh_user: Skyflash
 #   repo: morrowind-italian-itp-translation
