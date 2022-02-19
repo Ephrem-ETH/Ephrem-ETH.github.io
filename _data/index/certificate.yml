@@ -42,7 +42,7 @@
   img: static/assets/img/certificate/data_analysis.png
   by: IBM 
   #i18n: kace-sma-tools
-  - name: " Machine Learning with Python"
+- name: " Machine Learning with Python"
   date: February 2022
   url: https://www.coursera.org/account/accomplishments/certificate/J4XBPE3JSPB2
   img: static/assets/img/certificate/neural.png
