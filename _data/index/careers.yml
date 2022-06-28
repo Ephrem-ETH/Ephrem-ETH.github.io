@@ -1,5 +1,35 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name:
+    detail: LIFETOUCH srl 
+    i18n: integra
+  desc:
+    detail: 
+    i18n: integra_desc
+  date:
+    detail: May 2022 -  Present
+    i18n: integra_date
+  job:
+    detail: Software Engineer
+    i18n: integra_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: PerVoice SpA 
+    i18n: integra
+  desc:
+    detail: 
+    i18n: integra_desc
+  date:
+    detail: March 2022 - April 2022
+    i18n: integra_date
+  job:
+    detail: Internship Trainee
+    i18n: integra_job
+  icon: fa-plus-square
+  
 - name:
     detail: Fondazione Bruno Kessler - FBK 
     i18n: integra
