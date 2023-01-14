@@ -1,4 +1,19 @@
 - name:
+    detail: Technological University Dublin (Tu Dublin), Ireland 
+    i18n: integra
+  desc:
+    detail: 
+    i18n: integra_desc
+  date:
+    detail: October 2022 - September 2026
+    i18n: integra_date
+  job:
+    detail: PhD Student in Computer Science
+    i18n: integra_job
+  icon: fa-plus-square
+  present: True
+
+- name:
     detail: University of Trento, Italy 
     i18n: integra
   desc:
