@@ -1,11 +1,11 @@
 - name:
-    detail: Technological University Dublin (Tu Dublin), Ireland 
+    detail: TU Dublin, Ireland 
     i18n: integra
   desc:
     detail: 
     i18n: integra_desc
   date:
-    detail: October 2022 - September 2026
+    detail: October 2022 
     i18n: integra_date
   job:
     detail: PhD Student in Computer Science
