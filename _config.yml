@@ -77,7 +77,9 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-apple
     - name: fa-code
-  desc: "I am a PhD student in Computer Science at Technological University Dublin ( TU Dublin), Ireland. Currently, I am working in the realm of eXplainable AI. But, I also have a keen interest in Automatic Speech Recognition (ASR) and Natural Language Processing (NLP) research areas."
+  desc: "I am a PhD student in Computer Science at Technological University Dublin ( TU Dublin), Ireland. My research mainly focuses on Explainable Artificial Intelligence (XAI). I am passionate about researching, building, and applying accurate and trustable Machine Learning and Deep Learning models to solve real-world problems. 
+ I received a BSc degree from Addis Ababa University, Ethiopia, in July 2017 and an MSc degree from the University of Trento, Italy, in Dec 2021, both in Computer Science."
+  # "I am a PhD student in Computer Science at Technological University Dublin ( TU Dublin), Ireland. Currently, I am working in the realm of eXplainable AI. But, I also have a keen interest in Automatic Speech Recognition (ASR) and Natural Language Processing (NLP) research areas."
   # "I have successfully graduated with a Master's Degree in Computer Science from the University of Trento, Italy, in December 2021. After I received my Bachelor's Degree in Computer Science from Addis Ababa University in 2017, I have worked for two years as a teaching assistant at Haramaya University, Ethiopia. During my Master's study, I have worked both my internship and a Master's thesis at SpeechTek Research Unit in Fondazione Bruno Kessler (FBK) for eight-plus months. I have a keen research interest in Automatic Speech Recognition (ASR), Natural Language Processing (NLP), and Machine Translation."
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
