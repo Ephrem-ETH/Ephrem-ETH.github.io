@@ -1,6 +1,23 @@
 - name: END-TO-END LOW RESOURCE KEYWORD SPOTTING THROUGH CHARACTER RECOGNITION AND BEAM-SEARCH RE-SCORING
   author: Mekonnen, Ephrem; Brutti, Alessio and Falavigna, Daniele
   conf: ICASSP
-  disc: In 2022 IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP) 
+  disc: In 2022 IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)
   url: https://ieeexplore.ieee.org/document/9746012
- 
+
+- name: Explaining Deep Learning Time Series Classification Models using a Decision Tree-Based Post-Hoc XAI Method
+  author: Mekonnen, Ephrem; Dondio, Pierpaolo and Longo, Luca
+  conf: XAI-2023
+  disc: xAI-2023 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
+  url: https://ceur-ws.org/Vol-3554/paper13.pdf
+
+- name: A Global Model-Agnostic Rule-Based XAI Method based on Parameterised Event Primitives for Time Series Classifiers (Under Review)
+  author: Mekonnen, Ephrem; Dondio, Pierpaolo and Longo, Luca
+  conf: Frontiers-in-AI
+  disc: Frontiers in Artificial Intelligence Journal
+  url:
+
+- name: Interpreting Black-Box Time Series Classifiers using Parameterised Event Primitives
+  author: Mekonnen, Ephrem; Longo, Luca and  Dondio, Pierpaolo
+  conf: XAI-2024
+  disc: xAI-2024 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
+  url:
