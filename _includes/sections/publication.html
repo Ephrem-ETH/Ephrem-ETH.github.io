@@ -1,25 +1,43 @@
 <div class="container" id="i18_career">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="career.my_career">Publications</span></h1>
-        </div>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <div class="navy-line"></div>
+      <h1><span data-i18n="career.my_career">Publications</span></h1>
     </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            {% for publication in site.data.index.publications %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            
-                <div class="col-lg-2 text-center">
-                    <p class="p-3 mb-2 bg-primary text-white"> <span data-i18n="publication.{{ publication.name.i181 }}">{{publication.conf}}</span></p>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
+      {% for publication in site.data.index.publications %} {% assign loopindex
+      = forloop.index | modulo: 2 %}
 
-                </div>
-                <div class="col-lg-8 text-center">
-                <p> <a href="{{publication.url}}"> <span data-i18n="publication.{{ publication.name.i181 }}">{{publication.name}}</span> </a></p>
-                <p> <span data-i18n="publication.{{ publication.name.i181 }}">{{publication.author}}</span></p>
-                <p> <span data-i18n="publication.{{ publication.name.i181 }}">{{publication.disc}}</span></p>
-                </div>
-            {% endfor %}
-        </div>
+      <div class="col-lg-2 text-center">
+        <p class="p-3 mb-2 bg-primary text-white">
+          <span data-i18n="publication.{{ publication.name.i181 }}"
+            >{{publication.conf}}</span
+          >
+        </p>
+      </div>
+      <div class="col-lg-8 text-center">
+        <p>
+          <a href="{{publication.url}}">
+            <span data-i18n="publication.{{ publication.name.i181 }}"
+              >{{publication.name}}</span
+            >
+          </a>
+        </p>
+        <p>
+          <span data-i18n="publication.{{ publication.name.i181 }}"
+            >{{publication.author}}</span
+          >
+        </p>
+        <p>
+          <span data-i18n="publication.{{ publication.name.i181 }}"
+            >{{publication.disc}}</span
+          >
+        </p>
+      </div>
+      <br />
+      {% endfor %}
     </div>
+  </div>
 </div>
