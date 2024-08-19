@@ -6,9 +6,9 @@
 title: Ephrem Mekonnen
 description: "PhD student in Computer Science at Technological University Dublin, Ireland"
 keywords: ephrem, tibebe,mekonnen,asr,AI, XAI, eXplainable AI, Interpretable ML, gh-pages,, github, docker
-baseurl:  '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://ephrem-eth.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+baseurl: "" # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://ephrem-eth.github.io # url should be 'http://<github_username>.github.io/homepage' as before
+img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/blog' as before
 
 #
 ###################################
@@ -21,7 +21,7 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 
 settings:
-  rating: general  # May be general, mature, restricted, 14 years or safe for kids
+  rating: general # May be general, mature, restricted, 14 years or safe for kids
 
 kramdown:
   input: GFM
@@ -57,18 +57,17 @@ webmaster_verifications:
 # index page "about me" section
 ####################################
 #
-author:  # change following line to your infomation.
-  name: Ephrem Mekonnen  # Be used at blog posts' author.
-  first_name: Ephrem  # Be used at index page about me section.
-  last_name: Mekonnen  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/me.jpeg  # upload your avatar at directory and edit it.
-  github_username: ephrem-eth  # Leave blank if you don't have now
+author: # change following line to your infomation.
+  name: Ephrem Mekonnen # Be used at blog posts' author.
+  first_name: Ephrem # Be used at index page about me section.
+  last_name: Mekonnen # Be used at index page about me section.
+  avatar: /static/assets/img/landing/me.jpeg # upload your avatar at directory and edit it.
+  github_username: ephrem-eth # Leave blank if you don't have now
   linkedin_id: ephrem-tibebe-775444127 # Leave blank if you don't have now
-  facebook_username:   # Leave blank if you don't have now
+  facebook_username: # Leave blank if you don't have now
   twitter: Mekonnen8Ephrem
-  email: ephrem.tibebe2010@gmail.com  # Leave blank if you don't have now
-  cv: https://ephrem-eth.github.io/static/assets/cv/Mekonnen_CV.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
-
+  email: ephrem.tibebe2010@gmail.com # Leave blank if you don't have now
+  cv: https://ephrem-eth.github.io/static/assets/cv/Mekonnen_CV.pdf # An online CV can be printed as PDF, leave blank if you don't have now
 
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -77,19 +76,19 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-apple
     - name: fa-code
-  desc: "Hi, I am Ephrem, a PhD student at Technological University Dublin, where I work on the explainability of deep neural networks. Previously,  I worked as a Research Intern at Bruno Kessler Foundation for eight-plus months. Currently, I am also actively participating in the machine learning part of the <q> <b> HappyMaths </b></q> project led by my supervisor ( Dr. Pierpaolo Dondio) <br> My research interests are Explainable AI, Deep Learning, and Machine Learning."
-  # "I am a PhD student in Computer Science at Technological University Dublin ( TU Dublin), Ireland. My research focuses on Explainable Artificial Intelligence (XAI).  
+  desc: "Hi, I am Ephrem, a PhD student at Technological University Dublin, where I work on the explainability of deep neural networks. Previously,  I worked as a Research Intern at Bruno Kessler Foundation for eight-plus months. Currently, I am also participating in the machine learning part of the <q> <b> HappyMaths </b></q> project led by my supervisor ( Dr. Pierpaolo Dondio) <br> My research interests are Explainable AI, Deep Learning, and Machine Learning."
+  # "I am a PhD student in Computer Science at Technological University Dublin ( TU Dublin), Ireland. My research focuses on Explainable Artificial Intelligence (XAI).
   #  I received a BSc degree from Addis Ababa University, Ethiopia, in July 2017 and an MSc degree from the University of Trento, Italy, in Dec 2021, both in Computer Science."
   # "I am a PhD student in Computer Science at Technological University Dublin ( TU Dublin), Ireland. Currently, I am working in the realm of eXplainable AI. But, I also have a keen interest in Automatic Speech Recognition (ASR) and Natural Language Processing (NLP) research areas."
   # "I have successfully graduated with a Master's Degree in Computer Science from the University of Trento, Italy, in December 2021. After I received my Bachelor's Degree in Computer Science from Addis Ababa University in 2017, I have worked for two years as a teaching assistant at Haramaya University, Ethiopia. During my Master's study, I have worked both my internship and a Master's thesis at SpeechTek Research Unit in Fondazione Bruno Kessler (FBK) for eight-plus months. I have a keen research interest in Automatic Speech Recognition (ASR), Natural Language Processing (NLP), and Machine Translation."
 # comment
 #I am passionate about researching, building, and applying accurate and trustable Machine Learning and Deep Learning models to solve real-world problems.
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+disqus: # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: ephrem-eth.github.io
 
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+ga: # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
 #  id: UA-93473370-3
 
 ## google optimize
@@ -97,11 +96,11 @@ go:
   # id:
 
 ## donation
-donation: off  # type 'on'/'off' to choice display donation button at post page or not
+donation: off # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: off  # blog page carousel switch
+index_carousel: on # index page carousel switch
+blog_carousel: off # blog page carousel switch
 
 plugins:
   - jekyll-seo-tag
@@ -111,7 +110,6 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-
 
 # Build settings
 encoding: utf-8
@@ -124,6 +122,4 @@ jekyll_admin:
 #    - datafiles
 #    - configuration
 
-
-
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "screenshot.png"]
