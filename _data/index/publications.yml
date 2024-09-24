@@ -9,12 +9,13 @@
   conf: XAI-2023
   disc: xAI-2023 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
   url: https://ceur-ws.org/Vol-3554/paper13.pdf
+  poster_url: https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1018&context=cddpos
 
-- name: A Global Model-Agnostic Rule-Based XAI Method based on Parameterised Event Primitives for Time Series Classifiers (Under Review)
-  author: Mekonnen, Ephrem; Dondio, Pierpaolo and Longo, Luca
+- name: A Global Model-Agnostic Rule-Based XAI Method based on Parameterised Event Primitives for Time Series Classifiers
+  author: Mekonnen, Ephrem; Longo, Luca and Dondio, Pierpaolo
   conf: Frontiers-in-AI
   disc: Frontiers in Artificial Intelligence Journal
-  url:
+  url: https://www.frontiersin.org/articles/10.3389/frai.2024.1381921
 
 - name: Interpreting Black-Box Time Series Classifiers using Parameterised Event Primitives
   author: Mekonnen, Ephrem; Longo, Luca and  Dondio, Pierpaolo
