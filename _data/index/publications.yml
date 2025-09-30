@@ -1,25 +1,32 @@
 - name: END-TO-END LOW RESOURCE KEYWORD SPOTTING THROUGH CHARACTER RECOGNITION AND BEAM-SEARCH RE-SCORING
-  author: Mekonnen, Ephrem; Brutti, Alessio and Falavigna, Daniele
+  author: Mekonnen, Ephrem Tibebe; Brutti, Alessio and Falavigna, Daniele
   conf: ICASSP
   disc: In 2022 IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)
   url: https://ieeexplore.ieee.org/document/9746012
 
 - name: Explaining Deep Learning Time Series Classification Models using a Decision Tree-Based Post-Hoc XAI Method
-  author: Mekonnen, Ephrem; Dondio, Pierpaolo and Longo, Luca
+  author: Mekonnen, Ephrem Tibebe; Dondio, Pierpaolo and Longo, Luca
   conf: XAI-2023
-  disc: xAI-2023 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
+  disc: XAI-2023 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
   url: https://ceur-ws.org/Vol-3554/paper13.pdf
   poster_url: https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1018&context=cddpos
 
 - name: A Global Model-Agnostic Rule-Based XAI Method based on Parameterised Event Primitives for Time Series Classifiers
-  author: Mekonnen, Ephrem; Longo, Luca and Dondio, Pierpaolo
+  author: Mekonnen, Ephrem Tibebe; Longo, Luca and Dondio, Pierpaolo
   conf: Frontiers-in-AI
   disc: Frontiers in Artificial Intelligence Journal
   url: https://www.frontiersin.org/articles/10.3389/frai.2024.1381921
 
 - name: Interpreting Black-Box Time Series Classifiers using Parameterised Event Primitives
-  author: Mekonnen, Ephrem; Longo, Luca and  Dondio, Pierpaolo
+  author: Mekonnen, Ephrem Tibebe; Longo, Luca and  Dondio, Pierpaolo
   conf: XAI-2024
-  disc: xAI-2024 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
+  disc: XAI-2024 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
   url: https://ceur-ws.org/Vol-3793/paper_9.pdf
+  poster_url:
+
+- name: Explaining Time Series Classifiers Through Post-Hoc XAI Methods Capturing Temporal Dependencies
+  author: Mekonnen, Ephrem Tibebe; Longo, Luca and  Dondio, Pierpaolo
+  conf: XAI-2025
+  disc: XAI-202s Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
+  url: https://ceur-ws.org/Vol-4017/paper_42.pdf
   poster_url:
