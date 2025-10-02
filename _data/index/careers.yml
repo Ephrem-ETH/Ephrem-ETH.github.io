@@ -2,10 +2,10 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
-    detail: LIFETOUCH srl 
+    detail: LIFETOUCH srl
     i18n: integra
   desc:
-    detail: 
+    detail:
     i18n: integra_desc
   date:
     detail: May 2022 -  July 2022
@@ -17,10 +17,10 @@
   present: true
 
 - name:
-    detail: PerVoice SpA 
+    detail: PerVoice SpA
     i18n: integra
   desc:
-    detail: 
+    detail:
     i18n: integra_desc
   date:
     detail: March 2022 - April 2022
@@ -29,12 +29,12 @@
     detail: Internship Trainee
     i18n: integra_job
   icon: fa-plus-square
-  
+
 - name:
-    detail: Fondazione Bruno Kessler - FBK 
+    detail: Fondazione Bruno Kessler - FBK
     i18n: integra
   desc:
-    detail: 
+    detail:
     i18n: integra_desc
   date:
     detail: February 2021 - October 2021
@@ -49,13 +49,13 @@
     detail: Haramaya University, Ethiopia
     i18n: novomatic_b
   desc:
-    detail: 
+    detail:
     i18n: novomatic_b_desc
   date:
     detail: September 2017 - August 2019
     i18n: novomatic_b_date
   job:
-    detail: Higher education teaching professional
+    detail: Assistant Lecturer
     i18n: novomatic_b_job
   icon: fa-plus-square
 
@@ -63,13 +63,12 @@
     detail: Ethiopian Airlines
     i18n: novomatic
   desc:
-    detail: 
+    detail:
     i18n: novomatic_desc
   date:
     detail: July 2016 - September 2016
     i18n: novomatic_date
   job:
-    detail: Software developer Intern 
+    detail: Software developer Intern
     i18n: novomatic_job
   icon: fa-plus-square
-
