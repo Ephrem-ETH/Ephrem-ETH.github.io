@@ -5,42 +5,287 @@
       <h1><span data-i18n="career.my_career">Publications</span></h1>
     </div>
   </div>
+
+  <!-- Search and Filter Controls -->
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-      {% for publication in site.data.index.publications %} {% assign loopindex
-      = forloop.index | modulo: 2 %}
-      <div class="row features-block">
-        <div class="col-lg-2 text-center">
-          <p class="p-3 mb-2 bg-primary text-white">
-            <span data-i18n="publication.{{ publication.name.i181 }}"
-              >{{publication.conf}}</span
-            >
-          </p>
-        </div>
-        <div class="col-lg-8 text-center">
-          <p>
-            <a href="{{publication.url}}">
-              <span data-i18n="publication.{{ publication.name.i181 }}"
-                >{{publication.name}}
-              </span>
-            </a>
-            {% if publication.poster_url %}
-            <a href="{{ publication.poster_url }}">[Poster Presentation]</a>
-            {% endif %}
-          </p>
-          <p>
-            <span data-i18n="publication.{{ publication.name.i181 }}"
-              >{{publication.author}}</span
-            >
-          </p>
-          <p>
-            <span data-i18n="publication.{{ publication.name.i181 }}"
-              >{{publication.disc}}</span
-            >
-          </p>
-        </div>
+    <div class="col-lg-8 col-lg-offset-2 m-t-lg">
+      <div class="form-group">
+        <input
+          type="text"
+          id="searchInput"
+          class="form-control"
+          placeholder="Search publications by title, author, or keyword..."
+        />
       </div>
-      {% endfor %}
+      <div class="text-center m-b-md">
+        <button
+          class="btn btn-sm btn-outline filter-btn active"
+          data-filter="all"
+        >
+          All
+        </button>
+        <button
+          class="btn btn-sm btn-outline filter-btn"
+          data-filter="conference"
+        >
+          Conferences
+        </button>
+        <button class="btn btn-sm btn-outline filter-btn" data-filter="journal">
+          Journals
+        </button>
+        <button
+          class="btn btn-sm btn-outline filter-btn"
+          data-filter="workshop"
+        >
+          Workshops
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Publications List -->
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 m-t-lg m-b-lg">
+      <div id="publicationsList">
+        {% for publication in site.data.index.publications %}
+        <div
+          class="publication-item wow fadeInUp"
+          data-wow-delay="{{ forloop.index | times: 0.1 }}s"
+          data-type="{{ publication.type | default: 'conference' }}"
+          data-search="{{ publication.name | downcase }} {{ publication.author | downcase }} {{ publication.conf | downcase }}"
+        >
+          <div class="publication-card">
+            <div class="pub-year-badge">
+              <span class="badge badge-primary">{{ publication.conf }}</span>
+            </div>
+            <h4 class="pub-title">
+              <a href="{{ publication.url }}" target="_blank">
+                <span data-i18n="publication.{{ publication.name.i181 }}"
+                  >{{ publication.name }}</span
+                >
+              </a>
+            </h4>
+            <p class="pub-authors">
+              <i class="fa fa-users"></i>
+              <span data-i18n="publication.{{ publication.name.i181 }}"
+                >{{ publication.author }}</span
+              >
+            </p>
+            {% if publication.disc %}
+            <p class="pub-description">
+              <span data-i18n="publication.{{ publication.name.i181 }}"
+                >{{ publication.disc }}</span
+              >
+            </p>
+            {% endif %}
+            <div class="pub-links">
+              <a href="{{ publication.url }}" class="pub-link" target="_blank">
+                <i class="fa fa-file-pdf-o"></i> Paper
+              </a>
+              {% if publication.poster_url %}
+              <a
+                href="{{ publication.poster_url }}"
+                class="pub-link"
+                target="_blank"
+              >
+                <i class="fa fa-image"></i> Poster
+              </a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div id="noResults" style="display: none" class="text-center m-t-lg">
+        <p class="text-muted">No publications found matching your search.</p>
+      </div>
     </div>
   </div>
 </div>
+
+<style>
+  /* Publications Section Styles */
+  .publication-item {
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+
+  .publication-item.hidden {
+    display: none;
+  }
+
+  .publication-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #1ab394;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .publication-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateX(5px);
+  }
+
+  .pub-year-badge {
+    margin-bottom: 12px;
+  }
+
+  .pub-year-badge .badge {
+    background-color: #1ab394;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-weight: 600;
+  }
+
+  .pub-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+
+  .pub-title a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .pub-title a:hover {
+    color: #1ab394;
+  }
+
+  .pub-authors {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .pub-authors i {
+    margin-right: 5px;
+    color: #1ab394;
+  }
+
+  .pub-description {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+  .pub-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .pub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #1ab394;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+    padding: 5px 12px;
+    border: 1px solid #1ab394;
+    border-radius: 4px;
+  }
+
+  .pub-link:hover {
+    background-color: #1ab394;
+    color: white;
+  }
+
+  .filter-btn {
+    margin: 5px;
+    border: 1px solid #ddd;
+    color: #666;
+    transition: all 0.3s;
+  }
+
+  .filter-btn:hover {
+    border-color: #1ab394;
+    color: #1ab394;
+  }
+
+  .filter-btn.active {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: white;
+  }
+
+  #searchInput {
+    border-radius: 25px;
+    padding: 12px 20px;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s;
+  }
+
+  #searchInput:focus {
+    border-color: #1ab394;
+    outline: none;
+  }
+
+  @media (max-width: 768px) {
+    .publication-card {
+      padding: 20px;
+    }
+
+    .pub-title {
+      font-size: 16px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const publications = document.querySelectorAll(".publication-item");
+    const noResults = document.getElementById("noResults");
+
+    let currentFilter = "all";
+
+    // Search functionality
+    searchInput.addEventListener("input", function () {
+      filterPublications();
+    });
+
+    // Filter buttons
+    filterBtns.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        filterBtns.forEach((b) => b.classList.remove("active"));
+        this.classList.add("active");
+        currentFilter = this.getAttribute("data-filter");
+        filterPublications();
+      });
+    });
+
+    function filterPublications() {
+      const searchTerm = searchInput.value.toLowerCase();
+      let visibleCount = 0;
+
+      publications.forEach((pub) => {
+        const searchData = pub.getAttribute("data-search");
+        const pubType = pub.getAttribute("data-type");
+
+        const matchesSearch = searchData.includes(searchTerm);
+        const matchesFilter =
+          currentFilter === "all" || pubType === currentFilter;
+
+        if (matchesSearch && matchesFilter) {
+          pub.classList.remove("hidden");
+          visibleCount++;
+        } else {
+          pub.classList.add("hidden");
+        }
+      });
+
+      noResults.style.display = visibleCount === 0 ? "block" : "none";
+    }
+  });
+</script>
