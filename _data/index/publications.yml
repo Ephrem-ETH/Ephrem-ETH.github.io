@@ -29,10 +29,17 @@
   conf: XAI-2025
   disc: XAI-2025 Late-breaking Work, Demos and Doctoral Consortium Joint Proceedings
   url: https://ceur-ws.org/Vol-4017/paper_42.pdf
-  poster_url:
+  poster_url: https://ephrem-eth.github.io/static/assets/posters/poster_vertical_DC_final.pdf
 - name: "LOMATCE: LOcal Model-Agnostic Time Series Classification Explanations"
   author: Mekonnen, Ephrem Tibebe; Longo, Luca and  Dondio, Pierpaolo
   conf: IEEE Access
   disc: IEEE Access Journal
   url: https://ieeexplore.ieee.org/document/11216415
+  poster_url:
+
+- name: "L2GTX: From Local to Global Time Series Explanations"
+  author: Mekonnen, Ephrem Tibebe; Longo, Luca; Lucas Rizzo and  Dondio, Pierpaolo
+  conf: XAI-2026
+  disc: In proceedings of the 4th World Conference on Explainable Artificial Intelligence (XAI 2026)
+  url: https://arxiv.org/abs/2603.13065
   poster_url:
